@@ -1,0 +1,120 @@
+.header-img {
+    width: 50px;
+    height: 55px;
+}
+
+.nav-bar {
+    display: inline-block;
+    background-color: #ccc;
+    width: 95%;
+    padding: 20px;
+}
+
+.nav-item {
+    width: 46%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.home {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.about {
+    padding-left: 40px;
+}
+
+.todo-table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.todo-table th, .todo-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.left-column {
+    width: 400px;
+}
+
+.right-column {
+    width: 220px;
+}
+
+.done {
+    width: 100px;
+    height: 30px;
+    background: green;
+    margin: auto;
+}
+
+.undone {
+    width: 100px;
+    height: 30px;
+    background: red;
+    margin: auto;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.my-image {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.my-info {
+    display: inline-block;
+    width: 80%;
+    margin: 0 4%;
+
+}
+
+.my-about {
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+.contact-heading {
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+
+.contact-container input, .contact-container textarea {
+    display: block;
+    margin: auto;
+}
+
+.contact-container label {
+    margin-left: 300px;
+}
+
+.button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button button {
+    
+    background-color: plum;
+    border: 0;
+    padding: 10px 20px;
+}
