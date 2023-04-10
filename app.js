@@ -26,11 +26,10 @@ else{ alert('sorry you are not allowed')
 let messege = confirm('would you like to skip the welcoming messege')
 console.log(messege)
 
-let user = prompt('Please Type your gender again')
-if(user==='male'){
+if(gender==='male'){
   alert('Hello'+" " + 'Mr'+" " + name )
 }
-else if(user==='female'){
+else if(gender==='female'){
   alert('Hello' +' '+ 'Ms'+' '+ name)
 }
 else{
