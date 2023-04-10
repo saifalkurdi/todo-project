@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="/styles.css">
     <title>ToDo</title>
-  </head>
-  <body>
-    <h1>ToDo</h1>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+   
     <header>
-        <img src="" alt="">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+        <img class="header-img" src="./1950715.png" />
+        <nav class="nav-bar" >
+            <a class="nav-item home" href="">home</a>
+            <a class="nav-item about" href="./about.html">about</a>
         </nav>
     </header>
-    <h3>Table for homework on sunday</h3>
     <main>
-      <table border="black">
-        <tr>
-          <th>homework1</th>
-          <th>homewprk2</th>
-          <th>homework3</th>
-        </tr>
-        <tr>
-          <td>1pm-2pm</td>
-          <td>2pm-3pm</td>
-          <td>3pm-4pm</td>
-        </tr>
-      </table>
-    </main>
-    <footer>
-      <p>all right reserve &copy;2023</p>
+        <h1 class="heading" >ToDo List</h1>
+        <table class="todo-table" >
+            <thead>
+                <th class="left-column" >list</th>
+                <th class="table-head"  >status</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="left-column" >learn js</td>
+                   <td class="right-column" ><div class="done" ></div></td>
+                    
+                </tr>
+                <tr>
+                    <td class="left-column" >create html page</td>
+                    <td class="right-column" ><div class="undone" ></div></td>
 
-      <nav>
-        <a href="">facebook</a>
-        <a href="">instagram</a>
-        <a href="">sanpchat</a>
-      </nav>
-    </footer>
-  </body>
+                </tr>
+                <tr>
+                    <td class="left-column" >walk the dog</td>
+                    <td class="right-column"><div class="undone" ></div></td>
+
+                </tr>
+                <tr>
+                    <td class="left-column" >watch the match</td>
+                    <td class="right-column" ><div class="undone"></div></td>
+
+                </tr>
+            </tbody>
+   
+</table>
+</main>
+<footer>
+    <p>all right reserve &copy;2023</p>
+</footer>
+<script src="/app.js"></script>
+</body>
 </html>
