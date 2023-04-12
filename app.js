@@ -35,3 +35,35 @@ else if(gender==='female'){
 else{
   alert('Hello')
 }
+
+let answersArr = [];
+
+function askQuestion(question) {
+  let answer = prompt(question);
+  if(answer === '') {
+    answer = 'invalid'
+  }
+  return answer;
+}
+
+function collectAnswers(){
+  answersArr = [
+  askQuestion("do you play football ?"),
+  askQuestion("do you love js ?"),
+  askQuestion("do you love html"),
+  ]
+}
+
+function printAnswers(){
+for( let i = 0; i < answersArr.length; i++ ){
+  console.log(answersArr[i])
+}
+
+}
+
+
+collectAnswers();
+printAnswers();
+
+
+
