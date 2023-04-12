@@ -10,3 +10,7 @@
 I have learned a lot until now for now i leaner about Javascript and it is a programming language also i learned how to make alert box, confirm box and prompt box.
 
 it takes frome me one hour to do the project.
+
+The first question : I face a problem in understanding how to change human language to code.
+
+the second question : it takes from me about 3 hours .
