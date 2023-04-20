@@ -1,16 +1,7 @@
 # todo-project
-![wireframe photo](/wireframe%20website.jpg)
+## ![wireframe photo](./photo/Wireframe.jpg)
 
-#I have learned a lot until now for today i learnes how to create a webpage localy.
+### I have learned a lot until now for today i learnes how to create a webpage localy.
 
+#### it takes from me about 3 hours
 
-
-## It takes from me to the html about 2 hours and the expectation time to prepare it about 3 hours.
-
-I have learned a lot until now for now i leaner about Javascript and it is a programming language also i learned how to make alert box, confirm box and prompt box.
-
-it takes frome me one hour to do the project.
-
-The first question : I face a problem in understanding how to change human language to code.
-
-the second question : it takes from me about 3 hours .
